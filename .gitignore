@@ -1,0 +1,15 @@
+# Ignore CLion and JetBrains IDE folders
+.idea/
+
+# Ignore CMake build directory
+cmake-build-debug/
+
+# Optional: Ignore CMakeLists.txt if it's not required in repo
+CMakeLists.txt
+
+# Optional: ignore executables or compiled files
+*.exe
+*.o
+*.out
+*.obj
+*.log
