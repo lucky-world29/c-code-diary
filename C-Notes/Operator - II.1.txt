@@ -1,0 +1,273 @@
+21) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a=-1, b=1, c, d;
+c = !a && b;
+d = !a || b;
+printf("%d %d %d %d",a,b,c,d);
+return 0;
+}
+
+
+A) -1 1 1 0
+B) -1 1 0 0
+C) -1 1 1 1
+D) -1 1 0 1
+
+ANS : -1 1 0 1
+_______________________________________________________
+
+22) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+printf("%d Hello %d");
+return 0;
+}
+
+
+A) Garbage_value Hello Garbage_value
+B) 1 Hello 1
+C) 0 Hello 0
+D) Compilation error
+
+ANS : 	-1688097224 Hello -1688097208
+_______________________________________________________
+
+23) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 5;
+float y = 3.5;
+int result = x + (int)y;
+printf("Result: %d\n", result);
+return 0;
+}
+
+A) Result: 8.5
+B) Result: 8
+C) Result: 3.5
+D) Result: 5
+E) Result: 7
+
+ANS : 	8
+_______________________________________________________
+
+24) Which of the following is a valid C identifier?
+
+A) 123name
+B) _name
+C) my-name
+D) %name
+E) None
+
+ANS : _name 
+_______________________________________________________
+
+25) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 5;
+int y = 3;
+x += y++;
+y -= x--;
+printf("x = %d, y = %d\n", x, y);
+return 0;
+}
+
+
+A) x = 6, y = 2
+B) x = 8, y = -4
+C) x = 7, y = -4
+D) x = 5, y = 3
+E) None
+
+ANS : 	7,-4
+_______________________________________________________
+
+26) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+printf("%d ", 2 + 3 * 4 + 5 == 45);
+printf("%d ", 2 + 3 * 4 + 5 == 19);
+printf("%d ", (2 + 3) * (4 + 5) == 45);
+return 0;
+}
+
+A) 1 0 1
+B) 1 1 0
+C) 0 0 1
+D) 0 1 1
+E) None
+
+ANS : 0 1 1
+_______________________________________________________
+
+27) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 1, b = 4, c = 10;
+c = a = 10 == b + 6;
+printf("a=%d, b=%d, c=%d", a, b, c);
+return 0;
+}
+
+
+A) a=10, b=4, c=1
+B) a=1, b=4, c=0
+C) a=0, b=10, c=1
+D) Compiler Error
+E) a=1, b=4, c=1
+
+ANS : 
+_______________________________________________________
+
+_______________________________________________________
+
+_______________________________________________________
+
+30) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 3;
+int y = 2;
+int z = x++ * (x + y) - y- -;
+printf("z = %d\n", z);
+return 0;
+}
+
+
+A) z = 22
+B) z = 23
+C) z = 16
+D) z = 7
+E) z = 20
+
+ANS : C 
+_______________________________________________________
+
+31) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 10;
+int y = 5;
+int z = x - - - y; // int z = x- --y; // int z = x - (-(-y)); // int z = x - - (-y);
+printf("x = %d, y = %d, z = %d\n", x, y, z);
+return 0;
+}
+
+A) x = 9, y = 5, z = 5
+B) x = 9, y = 4, z = 5
+C) x = 9, y = 5, z = 4
+D) Compiler Error
+E) None
+
+ANS : A
+_______________________________________________________
+
+32) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 15;
+int y = 2;
+int z = x / y + x % y;
+printf("z = %d\n", z);
+return 0;
+}
+
+A) z = 7
+B) z = 8
+C) z = 9
+D) z = 14
+E) z = 15
+
+ANS : B
+_______________________________________________________
+
+35) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 10, b = 20, c = 10;
+int result = (a > b) || (b == c) && (c != a);
+printf("result = %d\n", result);
+return 0;
+}
+
+A) result = 0
+B) result = 1
+C) result = 2
+D) result = 3
+E) result = 4
+
+ANS : A
+_______________________________________________________
+
+36) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 5, b = 10, c = 15;
+int result = !(a <= b) && !(b != c) && !(c >= a);
+printf("result = %d\n", result);
+return 0;
+}
+
+
+A) result = 0
+B) result = 1
+C) result = 2
+D) result = 3
+E) result = 4
+
+ANS : A
+_______________________________________________________
+
+37) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 15, b = 4, c = 3;
+int result = (a + b) % c * b;
+printf("result = %d\n", result);
+return 0;
+}
+
+
+A) result = 8
+B) result = 7
+C) result = 4
+D) result = 5
+E) result = 6
+
+ANS : C
+_______________________________________________________
+
+38) What will be the output of the following C code?
+
+#include
+int main() {
+int a = 3;
+int b = 4;
+int result = (a += b) * (b -= 2);
+printf("result = %d\n", result);
+return 0;
+}
+
+A) result = 10
+B) result = 12
+C) result = 15
+D) result = 14
+E) result = 16
+
+ANS : D

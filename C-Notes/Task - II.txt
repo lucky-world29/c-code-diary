@@ -1,0 +1,49 @@
+Q-1
+-------
+          Without using control statements Write a C program to determine the next or previous multiple of 10 for a given two-digit number. 
+          The program should follow these rules:
+          If the last digit of the given number is greater than or equal to 5, the program should print the next multiple of 10.
+          If the last digit of the given number is less than 5, the program should print the previous multiple of 10..
+
+
+Sample Input1  : int a = 34;
+Sample Output1 : 30 
+
+Sample Input2  : int  a = 25;
+Output2 : 30
+
+Sample Input3  : int a = 86;
+Sample Output3 : 90
+
+
+Q-2
+------
+Write a 'C' program to check and print that given number is even or odd without using ternary operator and control statements.
+
+
+Sample input : int a = 10
+Sample Output : EVEN
+
+Sample input : int a = 125
+Sample Output : ODD
+
+
+Q-3
+------
+Write a 'C' program to take the number of days and convert into (days:months:years)
+
+Sample input  : int days = 500
+
+Sample Output :  1 year 4 month and 15 days. 
+
+Q-4
+-------
+Write a 'C' program to take the number of seconds and convert into (H:M:S)
+-------
+
+Sample input  : int seconds = 3665
+
+Sample Output : 1 hour 1 minute and 5 second
+
+
+                               

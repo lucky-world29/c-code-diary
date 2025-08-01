@@ -1,0 +1,304 @@
+1) What will be the output of bellow code?
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 3, c = 1;
+    int result = a * (b + c++) / (--b);
+    printf("%d\n", result);
+    return 0;
+}
+Ans:	10
+==================================================
+2) What will be the output of bellow code?
+
+#include <stdio.h>
+int main() {
+    int x = 5, y = 2, z;
+    z = x / y * x % y;
+    printf("%d\n", z);
+    return 0;
+}
+Ans:	0
+==================================================
+3) What is the output of the following code?
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 5, c = 5;
+    int x, y;
+
+    x = ++a * 2 - 1;
+    y = b++ * 2 - 1;
+    c *= 2 - 1;
+
+    printf("%d %d %d\n", x, y, c);
+    return 0;
+}
+Ans:	11,9,5
+==================================================
+4) What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int a = 8;
+    double b = 2.6;
+    int c;
+    c = a + b;
+    printf("%d", c);
+    return 0;
+}
+Ans:	10
+==================================================
+5) What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int x = 4, y = 2;
+    x /= x / y;
+    printf("%d\n", x);
+    return 0;
+}
+Ans:	2
+==================================================
+6) Consider the following program fragment,and choose the correct one.
+
+#include <stdio.h>
+int main()
+{
+  int a,b=2,c;
+  a=2*(b++);
+  c=2*(++b);
+  printf("a=%d, b=%d, c=%d",a,b,c);
+  return 0;
+}
+Ans:
+==================================================
+7) What will be the output of following program ?
+
+  #include <stdio.h>
+  void main()
+  {   
+    int x=(20 || 40 ) && (10);
+    printf("x= %d",x);
+  }
+Ans:
+==================================================
+8) What will be the output of bellow code?
+
+#include<stdio.h>
+  void main() {
+  int i = 0, j = 1, k = 2, m;
+  m = i++ || j++ || k++;
+  printf("%d %d %d %d", m, i, j, k);
+  return 0;
+  } 
+Ans:
+==================================================
+9) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+  int a=3, b=9;
+  printf("%d", ++(a*b+1));
+  return 0;
+}
+Ans:
+==================================================
+10) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 5;
+int b = 4;
+a += b % a;
+printf("%d",a);
+return 0;
+}
+Ans:
+==================================================
+11) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 5;
+int b = 10;
+int c = 15;
+int d = 2;   
+int result = a++ * ++b - c-- / d++;
+printf("%d %d %d %d",a,b,c,result);
+return 0;
+}
+Ans:
+==================================================
+12) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 3;
+int y = 2;
+int z = x++ * x * --y - y--;
+printf("%d %d %d",x,y,z); 
+return 0;
+}
+Ans:
+==================================================
+13) Which of the following operator takes only integer operands?
+
+A) +
+B) *
+C) /
+D) %
+E) None of these
+Ans:
+==================================================
+14) In an expression involving || operator ,evaluation
+
+I)   Will be stopped if one of its components evaluates to false
+II)  Will be stopped if one of its components evalutes to true
+III) Takes place from right to left
+IV)  Takes place from left to right
+Ans:
+==================================================
+15) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int i =10;
+i=!i>14;
+printf("%d",i);
+return 0;
+}
+Ans:
+==================================================
+16) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+printf("%d",3 * 2--);
+return 0;
+}
+Ans:
+==================================================
+17) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int i = 10;
+i++;
+i * i;
+printf("%d\n",i);
+return 0;
+}
+Ans:
+==================================================
+18) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a;
+a = (1, 2, 3);
+printf("%d", a);
+return 0;
+}
+Ans:
+==================================================
+19) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a=4,b,c;
+b = --a;
+c = a--;
+printf("%d %d %d",a,b,c);
+return 0;
+}
+Ans:
+==================================================
+20) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int x, y, z;
+x = 9 > 8 > 7;
+y = 9 > 8 > 0;
+z = 9 > 8 > 1;
+printf("%d %d %d", x, y, z);
+return 0;
+}
+Ans:
+==================================================
+21) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a=-1, b=1, c, d;
+c = !a && b;
+d = !a || b;
+printf("%d %d %d %d",a,b,c,d);
+return 0;
+}
+Ans:
+==================================================
+22) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+printf("%d Hello %d");
+return 0;
+}
+Ans:
+==================================================
+23) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 5;
+float y = 3.5;
+int result = x + (int)y;
+printf("Result: %d\n", result);
+return 0;
+}
+Ans:
+==================================================
+24) Which of the following is a valid C identifier?
+
+A) 123name
+B) _name
+C) my-name
+D) %name
+E) None
+Ans:
+==================================================
+25) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 5;
+int y = 3;
+x += y++;
+y -= x--;
+printf("x = %d, y = %d\n", x, y);
+return 0;
+}
+Ans:
+==================================================
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,379 @@
+1) What will be the output of bellow code?
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 3, c = 1;
+    int result = a * (b + c++) / (--b);
+    printf("%d\n", result);
+    return 0;
+}
+
+A) 10
+B) 15
+C) 25
+D) 30
+
+ANS : 
+_______________________________________________________
+
+2) What will be the output of bellow code?
+
+#include <stdio.h>
+int main() {
+    int x = 5, y = 2, z;
+    z = x / y * x % y;
+    printf("%d\n", z);
+    return 0;
+}
+
+A) 0
+B) 1
+C) 2
+D) Compilation Error
+
+ANS : 
+_______________________________________________________
+
+3) What is the output of the following code?
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 5, c = 5;
+    int x, y;
+
+    x = ++a * 2 - 1;
+    y = b++ * 2 - 1;
+    c *= 2 - 1;
+
+    printf("%d %d %d\n", x, y, c);
+    return 0;
+}
+
+A) 12 10 10
+B) 12 10 5
+C) 11 9 10
+D) 11 9 5
+
+ANS : 
+_______________________________________________________
+
+4) What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int a = 8;
+    double b = 2.6;
+    int c;
+    c = a + b;
+    printf("%d", c);
+    return 0;
+}
+
+A) 10.6
+B) 10
+C) 11
+D) 16
+
+ANS : 
+_______________________________________________________
+
+5) What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int x = 4, y = 2;
+    x /= x / y;
+    printf("%d\n", x);
+    return 0;
+}
+
+A) 4
+B) 2
+C) 1
+D) 0
+
+ANS : 
+_______________________________________________________
+
+6) Consider the following program fragment,and choose the correct one.
+
+#include <stdio.h>
+int main()
+{
+  int a,b=2,c;
+  a=2*(b++);
+  c=2*(++b);
+  printf("a=%d, b=%d, c=%d",a,b,c);
+  return 0;
+}
+
+A) a=4, b=2, c=6
+B) a=2, b=4, c=4
+C) a=4, b=4, c=8
+D) a=6, b=4, c=8
+
+ANS : 
+_______________________________________________________
+
+7) What will be the output of following program ?
+
+  #include <stdio.h>
+  void main()
+  {   
+    int x=(20 || 40 ) && (10);
+    printf("x= %d",x);
+  }
+
+A) x= 60
+B) x= 70
+C) x= 0
+D) x= 1
+
+ANS : 
+_______________________________________________________
+
+8) What will be the output of bellow code?
+
+#include<stdio.h>
+  void main() {
+  int i = 0, j = 1, k = 2, m;
+  m = i++ || j++ || k++;
+  printf("%d %d %d %d", m, i, j, k);
+  return 0;
+  } 
+
+A) 1 1 2 3
+B) 1 1 2 2
+C) 0 1 2 2
+D) 0 1 2 3
+
+ANS : 
+_______________________________________________________
+
+9) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+  int a=3, b=9;
+  printf("%d", ++(a*b+1));
+  return 0;
+}
+
+A) 28
+B) 29
+C) 30
+D) Compilation error
+
+ANS : 
+_______________________________________________________
+
+10) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 5;
+int b = 4;
+a += b % a;
+printf("%d",a);
+return 0;
+}
+
+A) 7
+B) 8
+C) 9
+D) 10
+E) 9.0
+
+ANS : 
+_______________________________________________________
+
+11) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int a = 5;
+int b = 10;
+int c = 15;
+int d = 2;   
+int result = a++ * ++b - c-- / d++;
+printf("%d %d %d %d",a,b,c,result);
+return 0;
+}
+
+A) 6 11 14 48
+B) 6 11 14 49
+C) 6 11 15 49
+D) 6 10 14 48
+E) None
+
+ANS : 
+_______________________________________________________
+
+12) What will be the output of this below program?
+
+#include<stdio.h>
+int main() {
+int x = 3;
+int y = 2;
+int z = x++ * x * --y - y--;
+printf("%d %d %d",x,y,z); 
+return 0;
+}
+
+A) 4 0 11
+B) 4 4 11
+C) 4 4 15
+D) 4 4 4
+E) None
+
+ANS : 
+_______________________________________________________
+
+13) Which of the following operator takes only integer operands?
+
+A) +
+B) *
+C) /
+D) %
+E) None of these
+
+ANS : 
+_______________________________________________________
+
+14) In an expression involving || operator ,evaluation
+
+I)   Will be stopped if one of its components evaluates to false
+II)  Will be stopped if one of its components evalutes to true
+III) Takes place from right to left
+IV)  Takes place from left to right
+
+
+A) I and II
+B) I and III
+C) II and III
+D) II and IV
+E) III and IV
+
+ANS : 
+_______________________________________________________
+
+15) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int i =10;
+i=!i>14;
+printf("%d",i);
+return 0;
+}
+
+A) 10
+B) 14
+C) 0
+D) 1
+E) None of these
+
+ANS : 
+_______________________________________________________
+
+16) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+printf("%d",3 * 2--);
+return 0;
+}
+
+A) 3
+B) 9
+C) 6
+D) Compilation error
+
+ANS : 
+_______________________________________________________
+
+17) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int i = 10;
+i++;
+i * i;
+printf("%d\n",i);
+return 0;
+}
+
+A) 121
+B) 100
+C) 10
+D) 11
+
+ANS : 
+_______________________________________________________
+
+18) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a;
+a = (1, 2, 3);
+printf("%d", a);
+return 0;
+}
+
+A) 1
+B) 7
+C) 3
+D) 9
+E) Compilation error
+
+ANS : 
+_______________________________________________________
+
+19) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int a=4,b,c;
+b = --a;
+c = a--;
+printf("%d %d %d",a,b,c);
+return 0;
+}
+
+A) 3 3 2
+B) 2 3 2
+C) 3 2 2
+D) 2 3 3
+
+ANS : 
+_______________________________________________________
+
+20) What will be the output of this below program?
+
+#include<stdio.h>
+int main()
+{
+int x, y, z;
+x = 9 > 8 > 7;
+y = 9 > 8 > 0;
+z = 9 > 8 > 1;
+printf("%d %d %d", x, y, z);
+return 0;
+}
+
+
+A) 0 0 1
+B) 0 1 0
+C) 1 0 0
+D) 0 1 1
+
+ANS : 
