@@ -1,0 +1,211 @@
+Ques - 1
+---------------
+What is the output?
+int a = 5, b = 3;
+int c = a & b | a ^ b;
+printf("%d", c);
+
+A) 7
+B) 5
+C) 3
+D) 1
+
+Answer: 
+
+Ques - 2
+---------------
+Evaluate the result:
+int x = 1, y = 0;
+int z = x && y || x;
+printf("%d", z);
+A) 0
+B) 1
+C) 2
+D) Undefined
+
+Answer: 
+
+Ques - 3
+---------------
+ Evaluate this ternary operation:
+int a = 2, b = 3;
+int c = (a & b) ? a : b;
+printf("%d", c);
+
+A) 2
+B) 3
+C) 1
+D) 0
+
+Answer: 
+
+Ques - 4
+---------------
+What is the output?
+int a = 0, b = 1;
+int c = !a ? b : a;
+printf("%d", c);
+
+A) 0
+B) 1
+C) -1
+D) Compilation Error
+
+Answer: 
+
+Ques - 5
+---------------
+Choose the correct output:
+int a = 1, b = 2;
+int c = (a | b) && !(a & b);
+printf("%d", c);
+
+A) 0
+B) 1
+C) 2
+D) Compilation Error
+
+ Answer: 
+
+Ques - 6
+---------------
+What is the output?
+int a = 0, b = 5;
+a && b && printf("ONE") || printf("TWO");
+A) ONE
+B) TWO
+C) ONETWO
+D) No Output
+
+Answer: 
+
+Ques - 7
+---------------
+Output of this?
+int a = 5;
+a > 6 ? printf("A") : a < 10 ? printf("B") : printf("C");
+A) A
+B) B
+C) C
+D) Compilation Error
+
+Answer: 
+
+Ques - 8
+---------------
+What does this print?
+int x = 0;
+x || printf("X") && printf("Y");
+
+A) XY
+B) X
+C) Y
+D) No Output
+
+Answer:
+
+Ques - 9
+---------------
+ Evaluate:
+int a = 1, b = 0;
+printf("Start ");
+a && printf("A ") || b && printf("B ");
+printf("End");
+
+A) Start A End
+B) Start A B End
+C) Start End
+D) Start B End
+
+ Answer
+Ques - 10
+---------------
+Output?
+int a = 2, b = 3;
+a > b ? printf("A") : a == b ? printf("E") : printf("B");
+
+A) A
+B) B
+C) E
+D) Compilation Error
+
+Answer: 
+
+Ques - 11
+---------------
+ What will be the output?
+int x = 1;
+x && printf("1") && printf("2") || printf("3");
+
+A) 123
+B) 12
+C) 3
+D) 1
+
+Answer:
+
+Ques - 12
+---------------
+Predict the output:
+int a = 3;
+printf(a < 2 ? "Low" : a < 5 ? "Mid" : "High");
+
+A) Low
+B) Mid
+C) High
+D) Compilation Error
+
+Answer
+
+Ques - 13
+---------------
+What is printed?
+int a = 5;
+printf(a % 2 == 0 ? "Even" : a > 4 ? "Odd" : "Small");
+
+A) Even
+B) Odd
+C) Small
+D) Compilation Error
+
+ Answer: 
+
+Ques - 14
+---------------
+ What is the output?
+
+int a = 10, b = 20;
+printf("%d", a > b ? a : b);
+
+A) 10
+B) 20
+C) 0
+D) Compilation Error
+
+Answer: 
+
+Ques - 15
+---------------
+Find minimum of two:
+int x = 7, y = 4;
+printf("%d", x < y ? x : y);
+
+A) 7
+B) 4
+C) 0
+D) Compilation Error
+
+Answer: 
+
+Ques - 16
+---------------
+Ternary chain for three numbers:
+
+int a = 10, b = 20, c = 15;
+printf("%d", a > b ? (a > c ? a : c) : (b > c ? b : c));
+A) 10
+B) 15
+C) 20
+D) Compilation Error
+
+Answer: 

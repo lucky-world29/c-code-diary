@@ -1,0 +1,87 @@
+Que 1 : Write a 'C' program to take the marks of a student in 5 subjects as input and 
+		determine how many subjects have marks greater than or equal to 35
+		and how many have marks less than 35. 
+------- The program should not use any control statements (if, else, switch, etc.) or the ternary operator. 
+
+Sample input  : int sub1 = 38, sub2 = 34, sub3 = 35, sub4 = 78, sub5 = 20
+
+Sample Output : Pass in 3 subject and fail in 2 subject.  
+
+
+Que 2 :  A shopkeeper buys a TV set for Rs. 3500 and sells it at a profit of 27%. Apart from this a 
+			VAT of 12.7% and Service Charge is 3.87% is charged. 
+-------  Write a C program to Display total selling price, profit along with vat and service charge.
+         To calculate the selling price, profit, VAT, and service charge, follow these steps:
+
+         1) Calculate the selling price:
+
+            Selling Price = Cost Price + Profit
+
+            Selling Price = Rs. 3500 + (27% of Rs. 3500)
+
+
+         2) Calculate the profit:
+
+            Profit = Selling Price - Cost Price
+
+
+         3) Calculate VAT:
+
+            VAT = 12.7% of Selling Price
+
+	
+         4) Calculate Service Charge:
+
+            Service Charge = 3.87% of Selling Price
+
+   Ques - 3
+---------------------  
+ Write a 'C' program to check and print that given number is even or odd 
+ without using ternary operator and control statments.
+--------
+
+Sample input : int a = 10
+Sample Output : EVEN
+
+Sample input : int a = 125
+Sample Output : ODD
+
+
+Que 4 :  Write a 'C' program to check and print the Maximum number among two numbers without using ternary operator and control statments.
+--------
+
+Sample input : int a = 10 , b = 20
+Sample Output : MAX = 20
+
+
+
+ Que 5 :  Write a 'C' program to reverse the given 3 digit number without using control statments.
+--------
+
+Sample input : int a = 123;
+Sample Output : reverse =  321
+
+Ques 6:
+-----------
+Write a 'C' program to check and print the minimum number among two numbers  using ternary operator.
+--------
+
+Sample input : int a = 10 , b = 200
+Sample Output : Min = 100
+
+Ques 7
+------------
+  Write a 'C' program to check and print the Maximum number among three numbers using ternary operator.
+
+Sample input : int a = 10 , b = 200, c = 134;
+Sample Output : MAX = 200
+
+Sample input : int a = 300 , b = 200, c = 134;
+Sample Output : MAX = 300
+
+Sample input : int a = 300 , b = 300, c = 300;
+Sample Output : All are same
+
+
+
+

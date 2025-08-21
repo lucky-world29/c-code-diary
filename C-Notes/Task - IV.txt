@@ -1,0 +1,56 @@
+
+Q-1
+---------
+Write a C program that takes an integer as input and checks if it is a positive, negative, or zero. 
+Display the appropriate message as output using the ternary operator.
+
+ Test Cases:
+Input: 10       → Output: Positive Number  
+Input: -5       → Output: Negative Number  
+Input: 0        → Output: Zero  
+=======================================================================
+Q-2
+-----------
+Using ternary operator write a C program for a bookstore named "BookWorld" that calculates the discounted amount based on the total purchase amount. 
+
+The store provides three types of discounts to its customers:
+-> If the total purchase amount is less than Rs. 1000, there is no discount.
+-> If the total purchase amount is between Rs. 1000 and Rs. 5000 (inclusive), customers get a 5% discount on the total purchase amount.
+-> If the total purchase amount is greater than Rs. 5000, customers get a 10% discount on the total purchase amount.
+
+Sample input  : purchase amount = 999
+Sample output : total amount = 999
+
+Sample input  : purchase amount = 2000
+Sample output : total amount including 5% discount = 1900
+
+Sample input  : purchase amount = 10000
+Sample output : total amount including 10% discount = 9000
+
+
+=============================================================================
+Q-4
+-------------
+Write a Cprogram to print sum of N natural numbers without using loops.
+
+Sample input : int n = 10
+Sample output : 55
+
+Input: 10        → Output: 55  
+Input: 5         → Output: 15  
+Input: 0         → Output: 0  
+
+============================================================================
+Q-5
+-------------
+Devlop a program on a payroll system for a company. The system needs to calculate the salary of an employee based on their employee type ('M' for manager or 'H' for HR employee) and their basic salary. 
+For managers, their salary should be increased by 10% as a performance bonus and for HR  increased by 5% . Write a C program that takes the employee type and basic salary as inputs and calculates the increased salary using the ternary operator.
+
+ Test Cases:
+yaml
+Copy
+Edit
+Input: M, 50000      → Output: Final Salary with 10% bonus = 55000.00  
+Input: H, 40000      → Output: Final Salary with 5% bonus = 42000.00  
+Input: X, 30000      → Output: Invalid Employee Type. Salary unchanged = 30000.00  
+
