@@ -4,9 +4,6 @@
 
 
 
-
-
-
 # 📚 Full C Programming Syllabus with Definitions & Structure
 
 This guide offers a complete breakdown of the C programming language syllabus — from fundamentals to advanced concepts — including definitions, structures, and topic outlines. Ideal for beginners and intermediate learners.
